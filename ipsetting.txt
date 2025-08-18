@@ -2,3 +2,7 @@ sudo ifconfig eno1 down
 sudo ifconfig eno1 hw ether 2c:f0:5d:9a:79:91
 sudo ifconfig eno1 up
 ifconfig
+
+ip link show
+sudo ip link set dev eno1 address 2c:f0:5d:9a:79:91
+sudo ip link set dev enp1 up

@@ -5,4 +5,4 @@ ifconfig
 
 ip link show
 sudo ip link set dev eno1 address 2c:f0:5d:9a:79:91
-sudo ip link set dev enp1 up
+sudo ip link set dev eno1 up

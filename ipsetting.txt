@@ -1,0 +1,4 @@
+sudo ifconfig eno1 down
+sudo ifconfig eno1 hw ether 2c:f0:5d:9a:79:91
+sudo ifconfig eno1 up
+ifconfig
